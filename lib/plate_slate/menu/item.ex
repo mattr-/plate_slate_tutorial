@@ -7,6 +7,7 @@ defmodule PlateSlate.Menu.Item do
   schema "items" do
     field :description, :string
     field :name, :string
+    field :price, :decimal
 
     belongs_to :category, PlateSlate.Menu.Category
 
