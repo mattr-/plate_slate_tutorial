@@ -13,7 +13,7 @@ config :logger, level: :warn
 config :plate_slate, PlateSlate.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "p0stgres",
   database: "plate_slate_test",
-  hostname: "localhost",
+  hostname: "192.168.64.2",
   pool: Ecto.Adapters.SQL.Sandbox
